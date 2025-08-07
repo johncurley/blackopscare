@@ -1,0 +1,35 @@
+baseURL: 'https://your-site-name.netlify.app'
+languageCode: 'en-us'
+title: 'Black Ops Support Services'
+theme: ''
+
+params:
+  description: 'Comprehensive Support & Care Services for Every Need'
+  phone: '0498 052 843'
+  email: 'info@blackopssupportservices.com.au'
+  
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  main:
+    - name: 'Home'
+      url: '/'
+      weight: 1
+    - name: 'Services'
+      url: '/#services'
+      weight: 2
+    - name: 'About'
+      url: '/#about'
+      weight: 3
+    - name: 'Reviews'
+      url: '/#reviews'
+      weight: 4
+    - name: 'Contact'
+      url: '/#contact'
+      weight: 5
+
+outputs:
+  home: ['HTML', 'RSS', 'JSON']

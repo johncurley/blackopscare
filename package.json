@@ -1,0 +1,30 @@
+{
+  "name": "black-ops-support-services",
+  "version": "1.0.0",
+  "description": "Modern Hugo website for Black Ops Support Services",
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --gc --minify",
+    "preview": "hugo server --environment production"
+  },
+  "keywords": [
+    "hugo",
+    "static-site",
+    "support-services",
+    "aged-care",
+    "netlify"
+  ],
+  "author": "Black Ops Support Services",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "hugo-extended": "^0.121.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/black-ops-support-services.git"
+  },
+  "homepage": "https://blackopssupportservices.netlify.app"
+}
